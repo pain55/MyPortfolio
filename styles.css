@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+html,body {
+    margin: 0;
+    height: 100%;
+    font-family: Kalam;
+}
+.navbar-brand {
+    font-family: Kaushan Script;
+    color: rgb(51, 28, 93);
+}
+.nav-item :hover{
+    text-decoration: underline;
+    transition: 3s;
+    color: #fff;
+}
+.home-page {
+    
+    background-image: url(assets/kaneki.jpg);
+    /* background-image: linear-gradient(rgba(77, 101, 29, 0.333),rgba(109, 79, 31, 0.315)),url(assets/2082965.png); */
+    /* position: relative; */
+    height: 100%;
+} 
+
+.home-desc {
+    width: fit-content;
+    padding: 0.3rem;
+    margin: 0 auto;
+}
+.hero-btn {
+    width: fit-content;
+    margin: 3vh auto;
+}
+
+.social-links {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    box-shadow: rgba(20, 20, 20, 0.4) 0 7px 29px 0;
+    padding: 0.5rem;
+    
+}
+
+.about-page {
+    height: 100%;
+    
+}
+
+.about-heading {
+    display: block;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    position: relative;
+    color: #111;
+}
+
+.about-header h3 {
+    display: block;
+    text-align: center;
+    max-width: 60rem;
+    margin: auto;
+    font-size: 1.5rem;
+    margin-bottom: 8vh;
+}
+
+.about-main {
+    height: fit-content;
+    padding: 1.5rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+.about-main:hover {
+    box-shadow: #111 2px 8px 15px 2px;
+}
+
+.about-education {
+    height: fit-content;
+    padding: 1.5rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+.about-education:hover {
+    box-shadow: #111 2px 8px 15px 2px;
+}
+
+.about-skills {
+    height: fit-content;
+    padding: 1.5rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: initial;
+    display: flex;
+     flex-wrap: wrap;
+}
+.about-skills:hover {
+    box-shadow: #111 2px 8px 15px 2px;
+}
+
+.about-skills h4 {
+    width: 100%;
+    height: fit-content;
+}
+
+.skills-skill {
+    width: fit-content;
+    background: rgba(140, 133, 151, 0.192);
+    font-weight: 600;
+    color: #666;
+    padding: .3rem;
+    margin: .4rem;
+    border-radius: 5px;
+}
+.skills-skill :hover {
+    box-shadow: #111 2px 3px 4px 2px;
+}
+
+.project-page {
+
+    height: 100%;
+    background-image: url(assets/samurai2.jpg);
+    background-size: cover;
+}
